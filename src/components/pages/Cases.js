@@ -1,12 +1,18 @@
 import React from 'react'
 import '../../App.css'
 import Card from '../Card'
+import Banner from '../banner/Banner'
 
 
 
 
 function Product() {
-    return <Card />
+    return(
+    <div>
+        <Banner />
+        <Card />
+    </div>
+)
 }
 
 export default Product
