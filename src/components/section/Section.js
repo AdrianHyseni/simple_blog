@@ -1,5 +1,5 @@
 import React from "react";
-import {Button} from '../Button'
+import {Button} from '../Buttons/Button'
 import {Link} from 'react-router-dom'
 import './Section.css'
 
@@ -7,7 +7,7 @@ import './Section.css'
 
 
 function Section({
-    yellowBg,lightBg, topLine, lightText, lightTextDesc, headline,description,buttonLabel, img, alt, imgStart
+    lightBg, topLine, lightText, lightTextDesc, headline,description,buttonLabel, img, alt, imgStart
                      }){
     return (
         <>
@@ -18,11 +18,13 @@ function Section({
                         <div className='col'>
                             <div className='home_hero-text-wrapper'>
                                 <div className='top-line'>{topLine}</div>
-                                <h1 className={lightText ? 'heading':'heading dark'}>{headline}</h1>
+                                <h1 className='heading'>{headline}</h1>
+                                <div className='paragraph'>
                                 <p className={lightText ? 'home__hero-subtitle':'home__hero-subtitle dark'}>{description}</p>
+                                </div>
                                 <Link to='/signup'>
-                                    <Button className='btns'
-                                        buttonStyle='btn--primary'
+                                    <Button
+                                        buttonStyle='btn'
                                         buttonSize='btn--large'>
                                         {buttonLabel}
                                     </Button>

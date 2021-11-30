@@ -1,29 +1,35 @@
 .pricing__section {
-    padding: 100px 0 160px;
+    padding: 70px 0 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #fafafa;
+    box-shadow: 5px 5px 10px #242424;
+    max-width: 1800px;
+    margin-left: 40px;
+    margin-top: -10px;
+    margin-bottom: -80px;
 }
 
 .pricing__container-card {
-    background: linear-gradient(45deg, #0660e9, #276afb 100%);
+    background: #7E7C73;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-    width: 280px;
-    height: 500px;
+    width: 480px;
+    height: 600px;
+    
     text-decoration: none;
     border-radius: 4px;
 
 }
 
 .pricing__container-card:nth-child(2){
-    transform: scale(1.05);
+    transform: scale(1.15);
     background: #242424;
     margin: 0 24px;
 }
 
 .pricing__container-card:hover {
-    transform: scale(1.06);
+    transform: scale(1.11);
     transition: all 0.3s ;
     color: #1c2237;
 }
@@ -83,8 +89,6 @@
 
 .pricing__container-features li {
     margin-bottom: 10px;
-
-
 }
 
 .icon {

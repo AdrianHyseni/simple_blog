@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Test from './components/pages/Test';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Product from './components/pages/Cases';
-import SignUp from './components/pages/SignUp';
-import Footer from './components/Footer';
+import SignUp from './components/pages/Auth/SignUp';
+import Footer from './components/footer/Footer';
+import Login from './components/pages/Auth/Login';
 
 function App() {
 
@@ -26,6 +26,9 @@ function App() {
       </Route>
       <Route  path ='/signup'>
         <SignUp/>
+      </Route>
+      <Route  path ='/login'>
+        <Login/>
       </Route>
       </Switch>
       <Footer/>
