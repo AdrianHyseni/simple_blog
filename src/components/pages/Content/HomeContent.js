@@ -64,7 +64,7 @@ const homeObjOne ={
   }
 
   const tripleCards = {
-    title: 'A Piece of Advice',
+    title: 'A Pice of Advice',
 
     firsticon: 'fa-hand-peace',
     firstCardTitleName:'Proverb',

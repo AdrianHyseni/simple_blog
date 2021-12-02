@@ -12,7 +12,7 @@ import {homeObjOne, homeObjTwo,bannerObjOne,tripleCards} from './Content/HomeCon
 function Home() {
   return (
     <>
-    <div className='home'>
+    <div className='container'>
       <HeroSection />
       <Section {...homeObjOne} />
       <Banner {...bannerObjOne} />

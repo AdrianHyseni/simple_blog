@@ -3,8 +3,8 @@ import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Product from './components/pages/Cases';
+import About from './components/pages/About';
+import Blog from './components/pages/Blog';
 import SignUp from './components/pages/Auth/SignUp';
 import Footer from './components/footer/Footer';
 import Login from './components/pages/Auth/Login';
@@ -18,11 +18,11 @@ function App() {
       <Route exact path ='/'>
         <Home/>
       </Route>
-      <Route  path ='/services'>
-        <Services/>
+      <Route  path ='/About'>
+        <About/>
       </Route>
       <Route  path ='/products'>
-        <Product/>
+        <Blog/>
       </Route>
       <Route  path ='/signup'>
         <SignUp/>
