@@ -1,5 +1,4 @@
 .home__hero-section {
-    color:#fff;
     background-color: white;
     box-shadow: 10px 30px 30px  black;
     max-width:1700px ;
@@ -17,6 +16,7 @@
 }
 
 .row {
+    color: azure;
     display: flex;
     margin-right: -15px;
     margin-bottom: -15px;
@@ -26,6 +26,7 @@
 }
 
 .col {
+    
     margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
@@ -37,6 +38,7 @@
 }
 
 .home__hero-text-wrapper {
+    
     max-width: 700px;
     padding-top: 0;
     padding-bottom: 50px;
@@ -59,12 +61,12 @@ text-align: -webkit-center;
 }
 
 
-.heading {
-    margin-bottom: 24px;
+.top-line h1 {
+    color: #fff;
+    margin-bottom: 30px;
     font-size:48px;
     line-height: 1.1;
     font-weight: 600;
-    color:white;
 
 }
 .heading-dark {

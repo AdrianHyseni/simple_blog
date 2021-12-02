@@ -50,7 +50,8 @@
 
 .pricing__heading {
     color:#1c2237;
-    margin-bottom: 24px;
+    margin-bottom: 60px;
+    margin-top: -10px;
 }
 
 .pricing__container-cardInfo {
@@ -87,12 +88,14 @@
 
 }
 
-.pricing__container-features li {
-    margin-bottom: 10px;
+.pricing__container-features  {
+    text-align: center;
 }
 
 .icon {
     margin: 24px 0 ;
+    font-size: 80px;
+
 }
 
 

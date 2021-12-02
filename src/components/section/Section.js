@@ -18,7 +18,7 @@ function Section({
                         <div className='col'>
                             <div className='home_hero-text-wrapper'>
                                 <div className='top-line'>{topLine}</div>
-                                <h1 className='heading'>{headline}</h1>
+                                <h1 >{headline}</h1>
                                 <div className='paragraph'>
                                 <p className={lightText ? 'home__hero-subtitle':'home__hero-subtitle dark'}>{description}</p>
                                 </div>

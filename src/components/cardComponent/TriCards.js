@@ -3,9 +3,9 @@ import {Link} from "react-router-dom";
 import {BsXDiamond, GiCrystalize} from "react-icons/all";
 import {Button} from "../Buttons/Button";
 import {IconContext} from 'react-icons/lib'
-import './Pricing.css';
+import './TriCards.css';
 
-function Pricing(props) {
+function TriCards(props) {
     return (
         <>
         <IconContext.Provider value={{color:'#fff',size:64}}>
@@ -17,28 +17,28 @@ function Pricing(props) {
                         <Link to='signup' className='pricing__container-card'>
                             <div className='pricing__container-cardInfo'>
                                 <div class='icon'>
-                                <i class={props.firsticon}/>
+                                <i className={`fa ${props.firsticon}`}/>
                                 </div>
                                 <h3>{props.firstCardTitleName}</h3>
                                 <h4>{props.firstCardName}</h4>
                                 <div className='pricing__container-features'>
-                                    <p>{props.FirstCardp}</p>
+                                    <p >{props.firstCardp}</p>
                                 </div>
                                 <Button className='btns'
                                     buttonStyle='btn--primary'
                                     buttonSize='btn--large'>
-                                    {props.FirstCarBtn}
+                                    {props.firstCardBtn}
                                 </Button>
                             </div>
                         </Link>
                         <Link to='signup' className='pricing__container-card'>
                             <div className='pricing__container-cardInfo'>
                                 <div class='icon'>
-                                <i class={props.secondicon}/>
+                                <i  className={`fa ${props.secondicon}`}/>
                                 </div>
                                 <h3>{props.secondCardTitleName}</h3>
                                 <h4>{props.secondCardName}</h4>
-                                <p>{props.secondCardp}</p>
+    
                                 <div className='pricing__container-features'>
                                    <p>{props.secondCardp}</p>
                                 </div>
@@ -50,20 +50,18 @@ function Pricing(props) {
                         <Link to='signup' className='pricing__container-card'>
                             <div className='pricing__container-cardInfo'>
                                 <div class='icon'>
-                                <i class={props.thirdicon}/>
+                                <i className={`fa ${props.thirdicon}`}/>
                                 </div>
-                                <h3>Diamond</h3>
-                                <h4>$8.99</h4>
-                                <p>per month</p>
+                                <h3>{props.thirdCardTitleName}</h3>
+                                <h4>{props.thirdCardName}</h4>
+                            
                                 <ul className='pricing__container-features'>
-                                    <li>100 Unlimited</li>
-                                    <li>5% Cash Back</li>
-                                    <li>$10000 Limit</li>
+                                    <p>{props.thirdCardp}</p>
                                 </ul>
                                 <Button className='btns'
                                     buttonStyle='btn--primary'
                                     buttonSize='btn--large'>
-                                    Choose Plane
+                                    {props.thirdCardBtn}
                                 </Button>
                             </div>
                         </Link>
@@ -76,4 +74,4 @@ function Pricing(props) {
     );
 }
 
-export default Pricing
+export default TriCards
