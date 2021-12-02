@@ -61,10 +61,10 @@ function Navbar() {
                     {button && 
                         <div className='nav-menu-auth'>
                         <div className='signup-button'>
-                        <Button  buttonStyle='btn--outline'>SIGN UP</Button>
+                        <Button link='/signup' buttonStyle='btn--outline'>SIGN UP</Button>
                         </div>
                         <div className='login-button'>
-                        <Button  buttonStyle='btn--outline'>LOGIN</Button>
+                        <Button link='/login' buttonStyle='btn--outline'>LOGIN</Button>
                         </div>
                         </div>
                     }                                      

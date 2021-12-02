@@ -6,7 +6,7 @@ function Login() {
     return (
         <div className='login__container'>
            <div className='login__leftside'>
-               <img src='/images/hands.jpg' className='login__image' alt='login-img'/>
+               <img src='/images/curly.jpg' className='login__image' alt='login-img'/>
            </div> 
            <div className='login__rightside'>
                <div className='login__card'>

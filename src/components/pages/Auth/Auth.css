@@ -8,19 +8,23 @@
 
 
 .login__container {
-    flex-direction: row ;
+
+    flex-direction: row;
     align-items: center;
     box-sizing: content-box;
     display: flex;
     font-size: 3rem;
+    padding: 30px;
+
 }
 .login__leftside {
         width: 49.5%;
  
 }
 .login__leftside img {
-    width:90vh;
-    height: 70vh;   
+  width: 90vh;
+  height: 100vh;
+  margin-bottom: -99px; 
 }
 
 
@@ -33,9 +37,9 @@
 .login__form {
     position: relative;
     z-index: 1;
-    background: rgba(255,255,255,.08);
+    background: #fff;
     max-width: 660px;
-    margin: 0 auto 100px;
+    margin: 0 auto 300px;
     padding: 45px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -44,14 +48,13 @@
   .login__form  input {
     font-family: FontAwesome, "Roboto", sans-serif;
     outline: 0;
-    background: #f2f2f2;
+    background: rgba(0, 0, 0, 0.1);
     width: 100%;
     border: 0;
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
-  border-radius:10px;
     
   }
   .login__form  i {
@@ -61,7 +64,11 @@
 
 /*Signup CSS */
 .signup__container {
-  margin: 20px;
+  background-image: url('/images/balerina.jpg');
+  background-size: contain;
+  margin: 100px;
+  padding: 20px;
+  align-items: -webkit-center;
 }
 
 
