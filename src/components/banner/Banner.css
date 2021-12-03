@@ -66,8 +66,10 @@
 
 @media screen and (max-width: 991px) {
     .container {
-        padding-right: 30px;
-        padding-left: 30px;
+       margin:0px;
+    }
+    .banner__hero-section{
+        margin: 0px;
     }
 }
 

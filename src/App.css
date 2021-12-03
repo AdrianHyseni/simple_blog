@@ -20,21 +20,6 @@
   text-align: -webkit-center;
 }
 
-.services {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.cases {
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
 .sign-up {
   background-position: center;
@@ -46,4 +31,11 @@
 
 div#root {
   background-color: #D6C5C4;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
 }

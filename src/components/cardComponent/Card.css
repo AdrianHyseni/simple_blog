@@ -103,6 +103,7 @@
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
+      margin:0px;
     }
   }
   
@@ -115,5 +116,11 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .cards {
+      margin: 0px;
     }
   }

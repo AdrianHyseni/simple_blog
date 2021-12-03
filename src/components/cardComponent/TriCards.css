@@ -100,12 +100,16 @@
 
 
 @media screen and (max-width: 960px) {
+    .pricing__section{
+        margin: 0px;
+    }
     .pricing__container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
+       
     }
 
     .pricing__container-card {
